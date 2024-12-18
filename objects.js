@@ -22,3 +22,5 @@ console.log(clonedStudent1)
 //adding key:value to an obj
 student1['age'] = 33
 console.log(student1)
+Object.assign(student1, {'gender' : "male"})
+console.log(student1)
